@@ -1,0 +1,162 @@
+@media screen and (max-width:1280px){
+  /*desktop*/
+  .content_information_wrapper {
+      margin: 0 auto;
+      width: 100%;
+      padding: 40px 45px;
+  }
+
+ }
+@media screen and (max-width:992px){
+  /*leptop*/
+  .header .header_wrapper {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .header_wrapper {
+      justify-content: space-around;
+  }
+  .content_information_wrapper {
+     padding: 0px 0px;
+}
+.aboutme_contact_wrapper {
+   float: left;
+   width: 100%;
+}
+.main_information {
+   float: none;
+}
+
+}
+@media screen and (max-width:768px){
+  /*tablet*/
+  .header .header_wrapper {
+    margin: 0 auto;
+    padding-left: 0px;
+}
+.socseti {
+  justify-content: space-between;
+  width: 38%;
+  }
+  .content_information_wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .main_information_text {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+  .aboutme_contact_wrapper {
+    float: none;
+}
+.main_information_text {
+    width: 100%;
+    padding-bottom: 25px;
+    padding-left: 22px;
+}
+.fotograf {
+    padding: 26px 145px;
+}
+.fotograf .fotograf_item {
+    border: 3px solid #3ba8c0;
+    border-radius: 9%;
+}
+.name_age {
+    padding-left: 63px;
+}
+.work_time_maintext_item {
+    margin: 20px 45px;
+    padding-bottom: 45px;
+}
+.student_days_maintext_item {
+    margin: 20px 51px;
+    padding-bottom: 45px;
+}
+@media screen and (max-width:480px){
+  /*mobile*/
+  .header .header_wrapper{
+ padding-left: 0px;
+ padding-right: 0px;
+padding-top: 42px;
+padding-bottom: 36px;
+}
+.socseti {
+    display: block;
+    padding-left: 2px;
+    width: 25%;
+    justify-content: space-around;
+}
+.socseti_wrapper_item .socseti_item {
+    padding: 7px 33px;
+    font-weight: bold;
+    color: white;
+}
+.socseti .socseti_item {
+    width: 47px;
+    height: 13px;
+    border-radius: 0;
+}
+.aboutme_contact_wrapper {
+    float: none;
+}
+.aboutme ul .aboutme_li a {;
+    font-size: 19px;
+    padding: 31px 37px;
+}
+.aboutme ul .aboutme_li {
+    list-style: none;
+    background: #eff3f7;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.fotograf {
+    display: inline-block;
+    padding: 22px 67px;
+}
+.name_age {
+    display: inline-block;
+    padding-bottom: 0px;
+    margin: 20px;
+}
+  .content_information_wrapper {
+      margin: 0 auto;
+      width: 100%;
+      padding: 0px;
+  }
+  .main_information {
+    float: none;
+}
+.main_information_text {
+    width: 100%;
+    padding-bottom: 8px;
+}
+.main_information_text h2 {
+    padding: 10px 5px;
+  }
+.name_age ul li {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.work_time .work_time_maintext h2{
+border-bottom: 2px solid #3ba8c0;
+width: 100%;
+font-weight: 100;
+padding: 18px;
+}
+.work_time {
+   margin-top: 0px;
+}
+.work_time_maintext_item {
+    margin: 20px 15px;
+    padding-bottom: 18px;
+}
+.student_days_maintext_item {
+    margin: 20px 16px;
+    padding-bottom: 43px;
+}
+.student_days .student_days_maintext h2 {
+     width: 100%;
+}
